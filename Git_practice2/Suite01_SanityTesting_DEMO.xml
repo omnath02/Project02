@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite01SanityTesting"  thread-count="1" parallel="classes">
+
+
+
+<listeners>
+<listener class-name="extentsReport.ExtentTestNGIReporterListener" > </listener>
+</listeners>
+
+
+
+
+<test name="Test">
+
+<!---->
+<parameter name="browser123" value="chrome"></parameter>
+  
+ <classes>     
+ <class name="testNG_TestCases.TC01"></class>   
+ 
+ </classes>
+    
+</test> <!-- Test -->
+</suite> <!-- Suite01SanityTesting -->
+
+
+   <!--  -->  
